@@ -1,0 +1,17 @@
+[
+    {
+        "repository":   "BladeRunner-A2C/android_device_nokia_DRG_sprout",
+        "target_path":  "device/nokia/DRG_sprout",
+        "branch":       "R11"
+    },
+   {
+        "repository":   "PotatoDevices/kernel_nokia_sdm660",
+        "target_path":  "kernel/nokia/sdm660",
+        "branch":       "dumaloo-release"
+    },
+   {
+        "repository":   "BladeRunner-A2C/android_vendor_nokia_DRG_sprout",
+        "target_path":  "vendor/nokia/DRG_sprout",
+        "branch":       "R11"
+    }
+]

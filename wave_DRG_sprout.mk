@@ -13,12 +13,12 @@
 # limitations under the License.
 #
 
-# Inherit from those products. Most specific first.
+# Inherit framework first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common potato stuff
-$(call inherit-product, vendor/potato/config/common_full_phone.mk)
+# Inherit some common wave stuff
+$(call inherit-product, vendor/wave/configs/common.mk)
 
 # Inherit from  device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -26,16 +26,12 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Set Shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 
-# Boot Animation
-TARGET_SCREEN_WIDTH := 1080
-TARGET_SCREEN_HEIGHT := 2280
-
+# Device identifier
 PRODUCT_BRAND := Nokia
 PRODUCT_DEVICE := DRG_sprout
 PRODUCT_MANUFACTURER := HMD Global
-PRODUCT_NAME := potato_DRG_sprout
+PRODUCT_NAME := wave_DRG_sprout
 PRODUCT_MODEL := Nokia 6.1 Plus
-
 PRODUCT_GMS_CLIENTID_BASE := android-hmd
 
 TARGET_VENDOR := nokia
@@ -45,3 +41,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="Dragon_00WW 10 QKQ1.190828.002 00WW_4_15L release-keys"
 
 BUILD_FINGERPRINT := Nokia/Dragon_00WW/DRG_sprout:10/QKQ1.190828.002/00WW_4_15L:user/release-keys
+
+# Bootanimation
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# Screen dimension
+TARGET_SCREEN_WIDTH := 1080
+TARGET_SCREEN_HEIGHT := 2280
