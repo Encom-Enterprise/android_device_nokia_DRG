@@ -58,4 +58,11 @@
          pulsating and RGB control would set this config to 75. -->
     <integer name="config_deviceLightCapabilities">0</integer>
 
+    <!-- Whether device has a physical display cutout -->
+    <bool name="config_physicalDisplayCutout">true</bool>
+
+    <!-- Should we vibrate on an icon animation of the shelf. This should
+    only be active if the vibrator is capable of subtle vibrations -->
+    <bool name="config_vibrateOnIconAnimation">true</bool>
+
 </resources>

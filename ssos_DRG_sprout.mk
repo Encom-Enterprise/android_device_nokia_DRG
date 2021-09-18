@@ -17,8 +17,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common wave stuff
-$(call inherit-product, vendor/wave/configs/common.mk)
+# Inherit some common Shapeshift stuff
+$(call inherit-product, vendor/ssos/config/common-full-phone.mk)
 
 # Inherit from  device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -30,7 +30,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 PRODUCT_BRAND := Nokia
 PRODUCT_DEVICE := DRG_sprout
 PRODUCT_MANUFACTURER := HMD Global
-PRODUCT_NAME := wave_DRG_sprout
+PRODUCT_NAME := ssos_DRG_sprout
 PRODUCT_MODEL := Nokia 6.1 Plus
 PRODUCT_GMS_CLIENTID_BASE := android-hmd
 
@@ -48,3 +48,6 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # Screen dimension
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 2280
+
+# Face unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
