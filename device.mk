@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/nokia/DRG_sprout
+DEVICE_PATH := device/nokia/DRG
 
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
@@ -23,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/nokia/DRG_sprout/DRG_sprout-vendor.mk)
+$(call inherit-product, vendor/nokia/DRG/DRG-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \

@@ -17,7 +17,7 @@
 set -e
 
 VENDOR=nokia
-DEVICE=DRG_sprout
+DEVICE=DRG
 
 # Load extractutils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"

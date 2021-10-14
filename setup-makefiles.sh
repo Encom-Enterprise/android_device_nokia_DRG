@@ -17,7 +17,7 @@
 set -e
 
 # Required!
-export DEVICE=DRG_sprout
+export DEVICE=DRG
 export VENDOR=nokia
 export DEVICE_BRINGUP_YEAR=2020
 

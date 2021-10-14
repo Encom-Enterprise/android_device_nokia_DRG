@@ -1,7 +1,7 @@
 [
     {
-        "repository":   "BladeRunner-A2C/device_nokia_DRG_sprout",
-        "target_path":  "device/nokia/DRG_sprout",
+        "repository":   "BladeRunner-A2C/device_nokia_DRG",
+        "target_path":  "device/nokia/DRG",
         "branch":       "R11"
     },
    {
@@ -10,8 +10,8 @@
         "branch":       "dumaloo-release"
     },
    {
-        "repository":   "BladeRunner-A2C/vendor_nokia_DRG_sprout",
-        "target_path":  "vendor/nokia/DRG_sprout",
+        "repository":   "BladeRunner-A2C/vendor_nokia_DRG",
+        "target_path":  "vendor/nokia/DRG",
         "branch":       "R11"
     }
 ]

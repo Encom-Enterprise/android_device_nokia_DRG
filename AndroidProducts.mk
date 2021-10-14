@@ -14,13 +14,13 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_DRG_sprout.mk \
-    $(LOCAL_DIR)/wave_DRG_sprout.mk
+    $(LOCAL_DIR)/lineage_DRG.mk \
+    $(LOCAL_DIR)/wave_DRG.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_DRG_sprout-user \
-    lineage_DRG_sprout-userdebug \
-    lineage_DRG_sprout-eng \
-    wave_DRG_sprout-user \
-    wave_DRG_sprout-userdebug \
-    wave_DRG_sprout-eng
+    lineage_DRG-user \
+    lineage_DRG-userdebug \
+    lineage_DRG-eng \
+    wave_DRG-user \
+    wave_DRG-userdebug \
+    wave_DRG-eng

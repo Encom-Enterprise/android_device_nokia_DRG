@@ -16,7 +16,7 @@
 
 BOARD_VENDOR := nokia
 
-DEVICE_PATH := device/nokia/DRG_sprout
+DEVICE_PATH := device/nokia/DRG
 
 # Architecture
 TARGET_ARCH := arm64

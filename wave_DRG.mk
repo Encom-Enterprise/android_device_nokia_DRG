@@ -28,9 +28,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 
 # Device identifier
 PRODUCT_BRAND := Nokia
-PRODUCT_DEVICE := DRG_sprout
+PRODUCT_DEVICE := DRG
 PRODUCT_MANUFACTURER := HMD Global
-PRODUCT_NAME := wave_DRG_sprout
+PRODUCT_NAME := wave_DRG
 PRODUCT_MODEL := Nokia 6.1 Plus
 PRODUCT_GMS_CLIENTID_BASE := android-hmd
 
@@ -40,7 +40,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=Dragon_00WW \
     PRIVATE_BUILD_DESC="Dragon_00WW 10 QKQ1.190828.002 00WW_4_15C release-keys"
 
-BUILD_FINGERPRINT := Nokia/Dragon_00WW/DRG_sprout:10/QKQ1.190828.002/00WW_4_15C:user/release-keys
+BUILD_FINGERPRINT := Nokia/Dragon_00WW/DRG:10/QKQ1.190828.002/00WW_4_15C:user/release-keys
 
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
